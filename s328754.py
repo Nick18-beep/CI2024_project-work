@@ -40,6 +40,8 @@ def f7(x: np.ndarray) -> np.ndarray:
              (0.016197739459344884 + x[1]))))
 
 
-def f8(x: np.ndarray) -> np.ndarray: 
-    return (((np.square(np.square(x[5]))) + ((x[1] - x[5]) - ((np.square(x[4]) + np.square(x[4])) * (x[5] + x[5])))) + 
-            np.square((np.square(x[5]) + np.square(x[5])))) * x[5]
+def f8(x: np.ndarray) -> np.ndarray:
+    return (
+        (4.999653938524524 * (np.square(np.square(x[5])) * x[5])) - 
+        (np.square((x[3] + x[3]) + -4.998753939544257) + np.square(np.square(x[4]) + np.square(x[4])))
+    )
