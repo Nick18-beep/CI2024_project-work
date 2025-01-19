@@ -408,6 +408,13 @@ print("best fitness:",fitness_function(best_tree,X,Y))
 
 
 
+
+
+
+
+#Start optimization of numeric terminals using improved Hill Climbing
+
+
 # Funzione per raccogliere i terminali numerici dall'albero
 def collect_numeric_terminals(tree):
     """Raccoglie i terminali numerici dell'albero."""
